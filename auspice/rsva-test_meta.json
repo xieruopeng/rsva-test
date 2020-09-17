@@ -1,5 +1,4 @@
 {
-    "build_url": "https://github.com/nextstrain/zika-tutorial",
     "colorings": [
       {
         "key": "gt",
@@ -45,6 +44,10 @@
           [
             "Argentina",
             "#4379CD"
+          ],
+          [
+            "United_Kingdom",
+            "#4784C7"
           ],
           [
             "Kenya",
@@ -119,8 +122,16 @@
             "#E68F36"
           ],
           [
+            "Switzerland",
+            "#E68234"
+          ],
+          [
             "Spain",
             "#E67431"
+          ],
+          [
+            "Uganda",
+            "#E4632E"
           ],
           [
             "South_Africa",
@@ -135,89 +146,81 @@
       "map_triplicate": true
     },
     "filters": [
-      "country",
-      "region"
+      "country"
     ],
     "genome_annotations": {
       "F": {
-        "end": 7450,
+        "end": 7417,
         "seqid": "config/sequence.gb",
-        "start": 5726,
+        "start": 5693,
         "strand": "+",
         "type": "CDS"
       },
       "G": {
-        "end": 5646,
+        "end": 5595,
         "seqid": "config/sequence.gb",
-        "start": 4681,
+        "start": 4663,
         "strand": "+",
         "type": "CDS"
       },
       "L": {
-        "end": 15058,
+        "end": 15035,
         "seqid": "config/sequence.gb",
-        "start": 8561,
+        "start": 8535,
         "strand": "+",
         "type": "CDS"
       },
       "M": {
-        "end": 4025,
+        "end": 4007,
         "seqid": "config/sequence.gb",
-        "start": 3255,
+        "start": 3237,
         "strand": "+",
         "type": "CDS"
       },
-      "M2-1": {
-        "end": 8253,
+      "M2": {
+        "end": 8469,
         "seqid": "config/sequence.gb",
-        "start": 7669,
-        "strand": "+",
-        "type": "CDS"
-      },
-      "M2-2": {
-        "end": 8494,
-        "seqid": "config/sequence.gb",
-        "start": 8228,
+        "start": 8197,
         "strand": "+",
         "type": "CDS"
       },
       "N": {
-        "end": 2315,
+        "end": 2289,
         "seqid": "config/sequence.gb",
-        "start": 1140,
+        "start": 1114,
         "strand": "+",
         "type": "CDS"
       },
       "NS1": {
-        "end": 518,
+        "end": 493,
         "seqid": "config/sequence.gb",
-        "start": 99,
+        "start": 74,
         "strand": "+",
         "type": "CDS"
       },
       "NS2": {
-        "end": 1002,
+        "end": 975,
         "seqid": "config/sequence.gb",
-        "start": 628,
+        "start": 601,
         "strand": "+",
         "type": "CDS"
       },
       "P": {
-        "end": 3072,
+        "end": 3047,
         "seqid": "config/sequence.gb",
-        "start": 2347,
+        "start": 2322,
         "strand": "+",
         "type": "CDS"
       },
       "SH": {
-        "end": 4489,
+        "end": 4473,
         "seqid": "config/sequence.gb",
-        "start": 4295,
+        "start": 4276,
         "strand": "+",
         "type": "CDS"
       },
       "nuc": {
-        "end": 15277,
+        "end": 15228,
         "seqid": "config/sequence.gb",
         "start": 1,
         "strand": "+",
@@ -255,10 +258,6 @@
             "latitude": 35.000074,
             "longitude": 104.999927
           },
-          "Egypt": {
-            "latitude": 26.2540493,
-            "longitude": 29.2675469
-          },
           "Germany": {
             "latitude": 51.0834196,
             "longitude": 10.4234469
@@ -266,10 +265,6 @@
           "India": {
             "latitude": 22.3511148,
             "longitude": 78.6677428
-          },
-          "Iran": {
-            "latitude": 32.0,
-            "longitude": 53.0
           },
           "Italy": {
             "latitude": 42.6384261,
@@ -287,10 +282,6 @@
             "latitude": 1.0,
             "longitude": 38.0
           },
-          "Lebanon": {
-            "latitude": 33.88894,
-            "longitude": 35.49442
-          },
           "Mexico": {
             "latitude": 19.4325301,
             "longitude": -99.1332101
@@ -298,10 +289,6 @@
           "Morocco": {
             "latitude": 31.1728192,
             "longitude": -7.3366042
-          },
-          "Mozambique": {
-            "latitude": -18.25,
-            "longitude": 35.0
           },
           "Netherlands": {
             "latitude": 52.3702,
@@ -347,13 +334,9 @@
             "latitude": 40.0028028,
             "longitude": -4.0031039
           },
-          "Sudan": {
-            "latitude": 16.0,
-            "longitude": 30.0
-          },
-          "Taiwan": {
-            "latitude": 23.6978,
-            "longitude": 120.9605
+          "Switzerland": {
+            "latitude": 47.00016,
+            "longitude": 8.01427
           },
           "Thailand": {
             "latitude": 14.8971921,
@@ -363,18 +346,20 @@
             "latitude": 39.7837304,
             "longitude": -100.4458824
           },
-          "Uruguay": {
-            "latitude": -33.0,
-            "longitude": -56.0
+          "Uganda": {
+            "latitude": 1.5333554,
+            "longitude": 32.2166578
+          },
+          "United_Kingdom": {
+            "latitude": 54.542713,
+            "longitude": -2.384858
+          },
+          "Vietnam": {
+            "latitude": 16.16667,
+            "longitude": 107.83333
           }
         },
         "key": "country"
-      }
-    ],
-    "maintainers": [
-      {
-        "name": "Trevor Bedford",
-        "url": "http://bedford.io/team/trevor-bedford/"
       }
     ],
     "panels": [
@@ -382,6 +367,6 @@
       "map",
       "entropy"
     ],
-    "title": "Nextstrain build for rsva virus",
-    "updated": "2020-08-03"
-}
+    "title": "Nextstrain build for rsvb virus",
+    "updated": "2020-08-02"
+  }
