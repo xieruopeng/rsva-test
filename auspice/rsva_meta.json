@@ -1,0 +1,379 @@
+{
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "scale": [
+          [
+            "China",
+            "#511EA8"
+          ],
+          [
+            "USA",
+            "#4928B4"
+          ],
+          [
+            "Australia",
+            "#4334BF"
+          ],
+          [
+            "Russia",
+            "#4041C7"
+          ],
+          [
+            "Japan",
+            "#3F50CC"
+          ],
+          [
+            "Philippines",
+            "#3F5ED0"
+          ],
+          [
+            "Nicaragua",
+            "#416CCE"
+          ],
+          [
+            "Argentina",
+            "#4379CD"
+          ],
+          [
+            "Kenya",
+            "#4B8FC1"
+          ],
+          [
+            "Cambodia",
+            "#5098B9"
+          ],
+          [
+            "Nigeria",
+            "#56A0AF"
+          ],
+          [
+            "New_Zealand",
+            "#5CA7A4"
+          ],
+          [
+            "Mexico",
+            "#63AC99"
+          ],
+          [
+            "South_Korea",
+            "#6BB18E"
+          ],
+          [
+            "Jordan",
+            "#73B583"
+          ],
+          [
+            "Netherlands",
+            "#7CB878"
+          ],
+          [
+            "Peru",
+            "#86BB6E"
+          ],
+          [
+            "Morocco",
+            "#A4BE56"
+          ],
+          [
+            "Thailand",
+            "#AFBD4F"
+          ],
+          [
+            "India",
+            "#B9BC4A"
+          ],
+          [
+            "Brazil",
+            "#CCB742"
+          ],
+          [
+            "Canada",
+            "#D3B240"
+          ],
+          [
+            "Italy",
+            "#DAAC3D"
+          ],
+          [
+            "Germany",
+            "#DFA43B"
+          ],
+          [
+            "Belgium",
+            "#E39B39"
+          ],
+          [
+            "Saudi_Arabia",
+            "#E68F36"
+          ],
+          [
+            "Spain",
+            "#E67431"
+          ],
+          [
+            "South_Africa",
+            "#E1512A"
+          ]
+        ],
+        "title": "Country",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true
+    },
+    "filters": [
+      "country"
+    ],
+    "genome_annotations": {
+      "F": {
+        "end": 7450,
+        "seqid": "config/sequence.gb",
+        "start": 5726,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "G": {
+        "end": 5646,
+        "seqid": "config/sequence.gb",
+        "start": 4681,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "L": {
+        "end": 15058,
+        "seqid": "config/sequence.gb",
+        "start": 8561,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M": {
+        "end": 4025,
+        "seqid": "config/sequence.gb",
+        "start": 3255,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M2-1": {
+        "end": 8253,
+        "seqid": "config/sequence.gb",
+        "start": 7669,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "M2-2": {
+        "end": 8494,
+        "seqid": "config/sequence.gb",
+        "start": 8228,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "N": {
+        "end": 2315,
+        "seqid": "config/sequence.gb",
+        "start": 1140,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS1": {
+        "end": 518,
+        "seqid": "config/sequence.gb",
+        "start": 99,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "NS2": {
+        "end": 1002,
+        "seqid": "config/sequence.gb",
+        "start": 628,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "P": {
+        "end": 3072,
+        "seqid": "config/sequence.gb",
+        "start": 2347,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "SH": {
+        "end": 4489,
+        "seqid": "config/sequence.gb",
+        "start": 4295,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 15277,
+        "seqid": "config/sequence.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "Argentina": {
+            "latitude": -34.0,
+            "longitude": -64.0
+          },
+          "Australia": {
+            "latitude": -24.7761085,
+            "longitude": 134.755
+          },
+          "Belgium": {
+            "latitude": 50.6407351,
+            "longitude": 4.66696
+          },
+          "Brazil": {
+            "latitude": -10.3333332,
+            "longitude": -53.1999999
+          },
+          "Cambodia": {
+            "latitude": 13.0,
+            "longitude": 105.0
+          },
+          "Canada": {
+            "latitude": 61.0666922,
+            "longitude": -107.991707
+          },
+          "China": {
+            "latitude": 35.000074,
+            "longitude": 104.999927
+          },
+          "Egypt": {
+            "latitude": 26.2540493,
+            "longitude": 29.2675469
+          },
+          "Germany": {
+            "latitude": 51.0834196,
+            "longitude": 10.4234469
+          },
+          "India": {
+            "latitude": 22.3511148,
+            "longitude": 78.6677428
+          },
+          "Iran": {
+            "latitude": 32.0,
+            "longitude": 53.0
+          },
+          "Italy": {
+            "latitude": 42.6384261,
+            "longitude": 12.674297
+          },
+          "Japan": {
+            "latitude": 35.68536,
+            "longitude": 139.75309
+          },
+          "Jordan": {
+            "latitude": 31.1667049,
+            "longitude": 36.941628
+          },
+          "Kenya": {
+            "latitude": 1.0,
+            "longitude": 38.0
+          },
+          "Lebanon": {
+            "latitude": 33.88894,
+            "longitude": 35.49442
+          },
+          "Mexico": {
+            "latitude": 19.4325301,
+            "longitude": -99.1332101
+          },
+          "Morocco": {
+            "latitude": 31.1728192,
+            "longitude": -7.3366042
+          },
+          "Mozambique": {
+            "latitude": -18.25,
+            "longitude": 35.0
+          },
+          "Netherlands": {
+            "latitude": 52.3702,
+            "longitude": 4.8952
+          },
+          "New_Zealand": {
+            "latitude": -41.500083,
+            "longitude": 172.8344077
+          },
+          "Nicaragua": {
+            "latitude": 13.0,
+            "longitude": -85.0
+          },
+          "Nigeria": {
+            "latitude": 10.0,
+            "longitude": 8.0
+          },
+          "Peru": {
+            "latitude": -10.0,
+            "longitude": -75.25
+          },
+          "Philippines": {
+            "latitude": 12.8797,
+            "longitude": 121.774
+          },
+          "Russia": {
+            "latitude": 64.6863136,
+            "longitude": 97.7453061
+          },
+          "Saudi_Arabia": {
+            "latitude": 25.0,
+            "longitude": 45.0
+          },
+          "South_Africa": {
+            "latitude": -28.8166235,
+            "longitude": 24.991639
+          },
+          "South_Korea": {
+            "latitude": 35.3985008,
+            "longitude": 127.937111
+          },
+          "Spain": {
+            "latitude": 40.0028028,
+            "longitude": -4.0031039
+          },
+          "Sudan": {
+            "latitude": 16.0,
+            "longitude": 30.0
+          },
+          "Taiwan": {
+            "latitude": 23.6978,
+            "longitude": 120.9605
+          },
+          "Thailand": {
+            "latitude": 14.8971921,
+            "longitude": 100.83273
+          },
+          "USA": {
+            "latitude": 39.7837304,
+            "longitude": -100.4458824
+          },
+          "Uruguay": {
+            "latitude": -33.0,
+            "longitude": -56.0
+          }
+        },
+        "key": "country"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ],
+    "title": "Nextstrain build for rsva virus",
+    "updated": "2020-08-03"
+}
