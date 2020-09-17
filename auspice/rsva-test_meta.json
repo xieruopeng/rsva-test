@@ -1,4 +1,5 @@
 {
+    "build_url": "https://github.com/nextstrain/zika-tutorial",
     "colorings": [
       {
         "key": "gt",
@@ -367,6 +368,12 @@
           }
         },
         "key": "country"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "Trevor Bedford",
+        "url": "http://bedford.io/team/trevor-bedford/"
       }
     ],
     "panels": [
