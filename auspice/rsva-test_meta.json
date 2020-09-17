@@ -135,7 +135,8 @@
       "map_triplicate": true
     },
     "filters": [
-      "country"
+      "country",
+      "region"
     ],
     "genome_annotations": {
       "F": {
